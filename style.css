@@ -1,0 +1,41 @@
+body{
+    background: url(./bg.jpg)no-repeat fixed;
+    background-size:cover;
+}
+#bg {
+    width: auto;
+    height: auto;
+    padding: 1ch;
+    /* background: rgb(42, 147, 189); */
+}
+.label{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0.2ch;
+    border-radius: 8px;
+    color: rgb(255, 151, 132);
+    background-color: #0c647a77;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.bt {
+    color: rgb(255, 151, 132);
+    background-color: #0c647a5b;
+    width: 10ch;
+    height: 4ch;
+    border-radius: 8px;
+    border: 0ch;
+    padding: 0.5ch;
+    margin: 1ch;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#bt_box{
+    text-align: center;
+}
+
+.label:hover,.bt:hover {
+    color:aqua;
+    background-color: #0f24257a;
+}
